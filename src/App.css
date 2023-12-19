@@ -1,6 +1,7 @@
 .products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .product-card {
@@ -16,6 +17,7 @@ body {
 .cont {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .back {
@@ -65,4 +67,10 @@ align-items: center;
   border: none;
   padding: 5px;
   width: 110px;
+}
+@media all and(max-width:500px){
+  img{
+    width: 150px;
+    height: 230px;
+  }
 }
